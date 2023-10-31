@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "cypress": "^13.3.0"
+  },
+  "name": "saucedemo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run"
+  },
+  "author": "gabriel pita",
+  "license": "ISC",
+  "description": "technical test"
+}
