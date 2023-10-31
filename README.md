@@ -67,7 +67,7 @@ I'm not sure if there's a random behaviour or if some status changes once it hap
 
 ## Improvements to do
 
-- [ ] Add to CI
+- [ ] Add to CI https://github.com/jpita/skitest/actions
 - [ ] POM
 - [ ] add users to fixtures
 - [ ] save cookie for login
