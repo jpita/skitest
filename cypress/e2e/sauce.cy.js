@@ -21,7 +21,6 @@ describe("Test Automation Challenge", () => {
     cy.get(".inventory_item").should("have.length", 6);
   });
 
-  // Bonus Challenges
   it("4. Verify you can sort the inventory items by price, high-to-low, and the sorting is correct.", () => {
     cy.get(".product_sort_container").select("hilo");
     cy.get(".inventory_item_price").then(($prices) => {
