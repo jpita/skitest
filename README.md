@@ -84,14 +84,17 @@ Feature: Crash!
 - Test Case 1.2: Rhino approaching after skier crashes.
   - Expected Outcome: Rhino comes a few moments after the skier crashes.
 - Test Case 1.3: User uses right, down, and left keys post-crash.
-  - Expected Outcome: Skier tries to recover and continue before the rhino comes. 2.
+  - Expected Outcome: Skier tries to recover and continue before the rhino comes.
 
 Feature: Get eaten by Rhino!
 
 - Test Case 2.1: Start the run, observe rhino.
   - Expected Outcome: A rhino follows the skier shortly after the start.
 - Test Case 2.2: Rhino chasing skier.
-  - Expected Outcome: Rhino catches up since it's faster. 3. Feature: Jump!
+  - Expected Outcome: Rhino catches up since it's faster.
+
+Feature: Jump!
+
 - Test Case 3.1: Skier jumps using the designated key.
   - Expected Outcome: Skier jumps.
 - Test Case 3.2: Skier approaches a ramp.
@@ -99,17 +102,18 @@ Feature: Get eaten by Rhino!
 - Test Case 3.3: Skier tries to jump over a rock.
   - Expected Outcome: Successfully jumps over.
 - Test Case 3.4: Skier tries to jump over a tree.
+  - Expected Outcome: Skier crashes.
 
 Feature: Restart!
 
 - Test Case 4.1: User presses the designated key for restart.
-  - Expected Outcome: The game restarts.
+  - Expected Outcome: The game restarts and the run starts immediately.
 - Test Case 4.2: Observe screen post-crash for restart message.
   - Expected Outcome: A message appears indicating which key to press to restart.
 
 ### "describe why you chose the features that you did"
 
-When I need to create a test plan/strategy, I always do two things:
+When I need to create a test plan/strategy, I always think about two things:
 
 1. what are the most important features of the product for the user?
 1. what are the most important features of the product for the business?
@@ -122,7 +126,8 @@ All the basic functionalities of the game need to be covered.
 
 ### Bug 1
 
-When the last key pressed is left-arrow, when we refresh the browser the game doesn't start, shows a blank page and this error in the console
+When the last key pressed is left-arrow, when we refresh the browser, the game doesn't start,
+it shows a blank page and this error in the console:
 
 ![console error](https://i.ibb.co/k61kMt3/Screenshot-2023-10-31-at-19-13-22.png)
 
