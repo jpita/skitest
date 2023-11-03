@@ -107,6 +107,17 @@ Feature: Restart!
 - Test Case 4.2: Observe screen post-crash for restart message.
   - Expected Outcome: A message appears indicating which key to press to restart.
 
+### "describe why you chose the features that you did"
+
+When I need to create a test plan/strategy, I always do two things:
+
+1. what are the most important features of the product for the user?
+1. what are the most important features of the product for the business?
+
+Since in this case we don't have a business/payments, I focused on the user.
+The features selected for testing are the ones that the user will interact with the most and that will have the most impact on the user's experience.
+All the basic functionalities of the game need to be covered.
+
 ## Bugs found
 
 ### Bug 1
