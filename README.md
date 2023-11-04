@@ -156,8 +156,8 @@ I'm not sure if there's a random behaviour or if some status changes once it hap
 
 ## Improvements to do
 
-- [ ] Add to CI https://github.com/jpita/skitest/actions
-- [ ] POM
+- [x] Add to CI https://github.com/jpita/skitest/actions
+- [x] POM
 - [ ] add users to fixtures
 - [ ] save cookie for login
 - [ ] do this challenge with webdriver.io
